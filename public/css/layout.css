@@ -165,6 +165,14 @@ ul.icons {
   margin-left: 375px;
 }
 
+#cover-video {
+  width: 100%;
+  position: absolute;
+  left: 300px;
+  top: -200px;
+  z-index: -1;
+}
+
   #main > section {
     margin: 0;
     overflow: hidden;
@@ -176,7 +184,7 @@ ul.icons {
 
     #main > section.dark {
       color: #ddd;
-      color: rgba(255, 255, 255, 0.75);
+      /* color: rgba(255, 255, 255, 0.75); */
     }
 
       #main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
@@ -204,8 +212,13 @@ ul.icons {
     }
 
     #main > section.one {
-      background-color: #81918E;
-      background-image: url("../../images/banner.jpg");
+      background: rgba(0, 0, 0, 0.5);
+      color: #f1f1f1;
+      width: 100%;
+      padding: 100px;
+     
+      /* background-color: #81918E; */
+      /* background-image: url("../../images/banner.jpg"); */
     }
 
     #main > section.two {
@@ -260,9 +273,9 @@ ul.icons {
       padding: 3em 0;
     }
 
-    #main section.cover {
-      padding: 5em 0;
-    }
+    /* #main section.cover {
+      /* padding: 5em 0; */
+    } */
 
 }
 
